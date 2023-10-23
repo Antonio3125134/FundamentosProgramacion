@@ -10,9 +10,9 @@ public class programa1u3 {
         System.out.println("ingresa tu edad:");
         edad = sc.nextInt();
               if (edad>=18)
-                  System.out.println("eres mayor de edad! uwu");
+                  System.out.println("eres mayor de edad!");
               else 
-                  System.out.println("eres menor de edad UnU");
+                  System.out.println("eres menor de edad");
     
             
                 
