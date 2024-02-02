@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    
+	    int n;
+		System.out.println("Ingrese el número al que se desea calcular factorial: ");
+		n = scanner.nextInt();
+		
+		int fn = i (n);
+	    System.out.println("El resultado es: "+fn);
+	    
+	}
+
+
+    public static int i (int n) {
+        int fn=1;
+        for (int i = 1; i <= n; i++){
+            fn *=i;
+            
+        }
+        return fn;
+        
+        
+    }
+}
