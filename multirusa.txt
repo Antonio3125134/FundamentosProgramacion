@@ -1,0 +1,8 @@
+Hacer un programa con apoyo del software netbeans(java) para calcular la multiplicación de dos números mediante el método de la multiplicación rusa, el multiplicando se multiplica por dos y el multiplicador se divide entre dos hasta llegar a 0, se consideran los productos que en el lado del multiplicador son impares y se suman.
+Ej.- 15 X 10
+      30      5
+      60      2
+     120     1
+     240     0
+
+del lado del multiplicador son impares 5 y 1 por lo tal se consideran los productos del multiplicando que son 120 y 30, se suman y da el resultado. 120 + 30 = 150
