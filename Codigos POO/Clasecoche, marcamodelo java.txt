@@ -1,0 +1,28 @@
+class Coche{
+
+    String marca;
+    String modelo;
+
+    Coche(String marca, String modelo)
+    {
+
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    void mostrarInfo(){
+
+        System.out.println("Marca: "+ marca + ", Modelo: " + modelo);
+
+    }
+}
+
+public class Main{
+    public static void main (String[] args)
+            {
+
+            Coche miCoche = new Coche("Toyota","Corolla");
+
+            miCoche.mostrarInfo();
+            }
+}
