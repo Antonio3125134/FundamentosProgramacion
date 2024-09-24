@@ -1,0 +1,38 @@
+using System;
+
+namespace MyCompiler
+{
+
+    class Coche
+
+    {
+
+        public string Marca { get; set;}
+        public string Modelo { get; set;}
+
+        public Coche(string marca, string modelo)
+        {
+
+            Marca = marca;
+            Modelo = modelo;
+        }
+
+        public void MostrarInfo()
+        {
+
+            Console.WriteLine($"Marca:{Marca}, Modelo: {Modelo}");
+        }
+    }
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+
+            Coche miCoche = new Coche ("Toyota","Corolla");
+
+            miCoche.MostrarInfo();
+        }
+    }
+}
