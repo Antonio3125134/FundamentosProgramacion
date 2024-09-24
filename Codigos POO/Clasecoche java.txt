@@ -1,0 +1,17 @@
+// Definicion de clase Coche
+class Coche{
+    // Aqui puedes definir atributos y metodos para la clase coche
+}
+
+// Clase principal con el metodo main(punto de entrada)
+
+public class Main{
+
+    public static void main(String[] args){
+        System.out.println("Programa iniciado correctamente");
+
+        //Aqui puedes instanciar la clase Coche o realizar otras operaciones
+
+        Coche miCoche = new Coche(); // Ejemplo de instanciacion
+    }
+}

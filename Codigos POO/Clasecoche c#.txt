@@ -1,0 +1,17 @@
+using System;
+
+namespace MyCompiler {
+    class Coche {
+        // Aquí puedes agregar atributos y métodos de la clase
+
+        // Punto de entrada del programa
+        class Program{
+            
+            static void Main (string[] args){
+
+                Console.WriteLine("Programa iniciado correctamente");
+                //Aquí puedes instanciar la clase Coche
+            }
+        }
+        }
+    }
